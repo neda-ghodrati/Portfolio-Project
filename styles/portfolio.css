@@ -1,5 +1,59 @@
-h1 {
-  font-family: roboto;
+body {
+  background-position: center;
+  background-image: url("images/bg.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  max-height: 900px;
+  background-position: fix;
+}
 
-  background-color: red;
+p,
+h1,
+h6 {
+  color: white;
+  text-align: center;
+  font-family: roboto;
+}
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 85px;
+  letter-spacing: 7px;
+  margin-left: 80px;
+  margin-top: 20px;
+}
+h6 {
+  font-size: 18px;
+  line-height: 30px;
+  margin: 25px 470px;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 276px;
+  line-height: 29px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-left: 80px;
+}
+.text {
+  position: relative;
+  left: 40px;
+}
+a.btn {
+  background-color: ivory;
+  font-family: montserrat;
+  font-weight: 700;
+  line-height: 17px;
+  border-radius: 50px;
+  padding: 18px 40px;
+}
+.white-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 301px;
 }
