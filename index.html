@@ -52,17 +52,59 @@
     <div
       style="
         background-image: url('images/bg.png');
-        background-repeat: no-repeat img-fluid;
-        overflow: hidden;
+        background-repeat: no-repeat;
+
+        background-position: center center;
+        background-size: cover;
+        background-origin: border-box;
+        background-attachment: fixed;
+        background-position-y: inherit;
       "
     >
+      <nav class="navbar sticky navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">SheCodes</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse WHITE" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
       <div class="hero">
         <p>SHELLY WHITE</p>
         <h1>PHOTOGRAPHY</h1>
-        <div class="text" max-width="460">
+        <div class="text">
           <h6>
-            Nisl faucibus quis urna nibh ut amet. Diam suscipit pretium massa,
-            sollicitudin in risus in. Sagittis.
+            Nisl faucibus quis urna nibh ut amet. Diam suscipit <br />pretium
+            massa, sollicitudin in risus in. Sagittis.
           </h6>
           <span class="white-btn"><a href="#" class="btn">GET STARTED</a></span>
         </div>

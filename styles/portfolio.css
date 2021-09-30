@@ -15,33 +15,37 @@ h6 {
   text-align: center;
   font-family: roboto;
 }
+@media (min-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
 
-h1 {
-  font-size: 72px;
-  font-weight: bold;
-  line-height: 85px;
-  letter-spacing: 7px;
-  margin-left: 80px;
-  margin-top: 20px;
+  h1 {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 85px;
+    letter-spacing: 4px;
+
+    margin-top: 20px;
+  }
 }
 h6 {
-  font-size: 18px;
+  font-style: normal;
+  text-align: center;
+  font-size: 17px;
   line-height: 30px;
-  margin: 25px 470px;
 }
 
 p {
   font-size: 24px;
   font-weight: bold;
-  padding-top: 276px;
+  padding-top: 2px;
   line-height: 29px;
   letter-spacing: 3px;
   text-align: center;
-  margin-left: 80px;
 }
 .text {
-  position: relative;
-  left: 40px;
+  text-align: center;
 }
 a.btn {
   background-color: ivory;
@@ -55,5 +59,17 @@ a.btn {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 301px;
+  margin-bottom: 300px;
+}
+
+.collapse {
+  justify-content: flex-end;
+}
+.navbar-toggler-icon {
+  color: white;
+  border-color: white;
+  background-color: white;
+}
+div.hero {
+  margin-top: 100px;
 }
