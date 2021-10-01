@@ -1,11 +1,13 @@
 body {
-  background-position: center;
   background-image: url("images/bg.png");
   background-repeat: no-repeat;
   background-size: auto;
-  max-width: 1440px;
-  max-height: 900px;
+
   background-color: #1b1b1b;
+  background-position: center center;
+  margin: 0 auto;
+  background-attachment: local;
+  background-position: center;
 }
 
 p,
@@ -58,8 +60,10 @@ p {
   line-height: 29px;
   letter-spacing: 3px;
   text-align: center;
+  padding-bottom: 10px;
 }
 .text {
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -79,9 +83,10 @@ p {
   background-color: white;
 }
 div.hero {
-  margin-top: 100px;
+  margin-top: 240px;
   margin-bottom: 100px;
 }
+
 .car {
   max-width: 386px;
   max-height: 280px;
@@ -98,6 +103,7 @@ div.hero {
 .picture-container {
   max-width: 1440px;
   display: flex;
+
   padding-left: 125px;
   padding-right: 123px;
   justify-content: space-evenly;
