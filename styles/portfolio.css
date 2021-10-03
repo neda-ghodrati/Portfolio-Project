@@ -79,7 +79,7 @@ p {
   font-weight: bold;
   padding-top: 2px;
   line-height: 29px;
-  letter-spacing: 3px;
+
   text-align: center;
   padding-bottom: 10px;
 }
@@ -125,7 +125,6 @@ div.hero {
 .picture-container {
   display: flex;
   justify-content: center;
-  margin-left: 0;
 }
 .picture-container img {
   margin: 20px;
@@ -138,7 +137,6 @@ div.hero {
 .lake {
   max-width: 300px;
   max-height: 280px;
-  margin: 0 40px;
 }
 
 .stairs {
