@@ -122,9 +122,12 @@ div.hero {
   max-width: 300px;
   max-height: 280px;
 }
-.picture-container {
+.picture-container,
+.gallery .picture-container,
+.about .picture-container {
   display: flex;
   justify-content: center;
+  margin-right: 30px;
 }
 .picture-container img {
   margin: 20px;
