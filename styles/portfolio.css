@@ -101,12 +101,13 @@ div.hero {
   max-height: 280px;
 }
 .picture-container {
-  max-width: 1440px;
+  padding-left: 25px;
+  padding-right: 23px;
   display: flex;
-
-  padding-left: 125px;
-  padding-right: 123px;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+.picture-container img {
+  margin: 20px;
 }
 .man {
   max-width: 300px;
@@ -116,7 +117,6 @@ div.hero {
 .lake {
   max-width: 300px;
   max-height: 280px;
-  margin: 0 40px;
 }
 
 .stairs {
@@ -131,7 +131,6 @@ div.hero {
 .street {
   max-width: 359px;
   max-height: 280px;
-  margin: 0 40px;
 }
 
 .city {
@@ -146,10 +145,16 @@ div.hero {
 .eifel {
   max-width: 386px;
   max-height: 280px;
-  margin: 0 40px;
 }
 
 .archi {
   max-width: 300px;
   max-height: 280px;
+}
+.about h6 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+  color: #f65282;
+  text-align: start;
 }
