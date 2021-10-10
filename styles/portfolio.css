@@ -261,19 +261,21 @@ div.hero {
 
 img.logo {
   max-height: 17px;
+  margin-top: 5px;
 }
 .copywrite {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
-.footer {
+footer{
   background-color: #282323;
 
-
-  width: 1440;
-  height: 70px;
-  padding: 20px;
+}
+.footer {
+  margin-top: 30px;
+  padding-top: 20px;
+ 
 }
 
 @media (max-width: 600px) {
